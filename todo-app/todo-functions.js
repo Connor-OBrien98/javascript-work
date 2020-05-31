@@ -12,6 +12,7 @@ const getSavedTodos = function () {
 // Save todos to the local storage
 const saveTodos = function (todos) {
     localStorage.setItem('todos', JSON.stringify(todos))
+    console.log('test')
 }
 
 // Render application todos based on filter
